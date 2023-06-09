@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/task")
 public class TaskController1 {
-    @RequestMapping("/hello")
+    @RequestMapping("/hello1")
     public String hello(){
         return "controller1";
     }
